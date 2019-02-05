@@ -1,0 +1,3520 @@
+# Microsoft Developer Studio Generated Dependency File, included by ContourArx.mak
+
+.\AboutDlg.cpp : \
+	".\AboutDlg.h"\
+	".\protection.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\ActivateDlg.cpp : \
+	".\ActivateDlg.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\AnnotationParamDlg.cpp : \
+	".\AnnotationParamDlg.h"\
+	".\ContourArx.h"\
+	".\DrawUtil.h"\
+	".\DwgParamObj.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\actrans.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\adslib.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbdate.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\dbsymtb.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxregsvc.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\ContourAnnotation.cpp : \
+	".\AnnotationParamDlg.h"\
+	".\ContourAnnotation.h"\
+	".\DrawContourLines.h"\
+	".\DrawUtil.h"\
+	".\DwgParamObj.h"\
+	".\GenPtsDlg.h"\
+	".\Line2PLine.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\tindata.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\actrans.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\adslib.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbdate.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbregion.h"\
+	"c:\program files\objectarx\inc\dbsol3d.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\dbsymtb.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxregsvc.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\ContourApp.Cpp : \
+	".\ContourApp.h"\
+	".\ContourToolbar.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxmfcapi.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\ContourArx.cpp : \
+	".\AboutDlg.h"\
+	".\ActivateDlg.h"\
+	".\ContourAnnotation.h"\
+	".\ContourApp.h"\
+	".\ContourArx.h"\
+	".\ContourParamDlg.h"\
+	".\ContourToolbar.h"\
+	".\CoOrdMarker.h"\
+	".\DefineBoundaryDlg.h"\
+	".\DrawContourLines.h"\
+	".\DrawUtil.h"\
+	".\DwgParamObj.h"\
+	".\edreact.h"\
+	".\gengriddata.h"\
+	".\halignment.h"\
+	".\ImportPts.h"\
+	".\Line2PLine.h"\
+	".\NEAnnotationEntity.h"\
+	".\objreact.h"\
+	".\plinedataextractor.h"\
+	".\profile.h"\
+	".\profiledatadlg.h"\
+	".\protection.h"\
+	".\Purge.h"\
+	".\ReadPtData.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\subroutines.h"\
+	".\TIN.h"\
+	".\tindata.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	".\Volume.h"\
+	".\xsecdatadlg.h"\
+	".\xsection.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\actrans.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\adslib.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbdate.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\dbsymtb.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxmfcapi.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxregsvc.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\ContourARX.rc : \
+	".\res\idr_cont.ico"\
+	".\res\idr_main.ico"\
+	".\res\toolbar_.bmp"\
+	".\toolbar1.bmp"\
+	
+
+.\ContourParamDlg.cpp : \
+	".\ContourArx.h"\
+	".\ContourParamDlg.h"\
+	".\DrawUtil.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\ContourToolbar.cpp : \
+	".\AboutDlg.h"\
+	".\ContourApp.h"\
+	".\ContourArx.h"\
+	".\ContourToolbar.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\adslib.h"\
+	"c:\program files\objectarx\inc\rxmfcapi.h"\
+	
+
+.\CoOrdMarker.cpp : \
+	".\CoOrdMarker.h"\
+	".\CoOrdMarkerPropDlg.h"\
+	".\DrawUtil.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\acgiutil.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbdate.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbproxy.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\dbsymtb.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxmfcapi.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxregsvc.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\CoOrdMarkerPropDlg.cpp : \
+	".\ContourArx.h"\
+	".\CoOrdMarkerPropDlg.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\Util.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\CurveCalculator.cpp : \
+	".\curvecalculator.h"\
+	".\DrawUtil.h"\
+	".\Structures.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\DefineBoundaryDlg.cpp : \
+	".\ContourArx.h"\
+	".\DefineBoundaryDlg.h"\
+	".\DwgParamObj.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\actrans.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\adslib.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbdate.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\dbsymtb.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxregsvc.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\DrawContourLines.cpp : \
+	".\ContourAnnotation.h"\
+	".\DrawContourLines.h"\
+	".\DrawUtil.h"\
+	".\DwgParamObj.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\tindata.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\actrans.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\adslib.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbdate.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\dbsymtb.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxregsvc.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\DrawUtil.cpp : \
+	".\DrawUtil.h"\
+	".\Structures.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbdate.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\dbsymtb.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\DwgParamObj.cpp : \
+	".\ContourApp.h"\
+	".\ContourToolbar.h"\
+	".\DrawUtil.h"\
+	".\DwgParamObj.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\TINEntity.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\actrans.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\adslib.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbdate.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\dbsymtb.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxregsvc.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\edreact.cpp : \
+	".\ContourArx.h"\
+	".\DrawUtil.h"\
+	".\DwgParamObj.h"\
+	".\edreact.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\TINEntity.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\actrans.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\adslib.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbdate.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbidmap.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\dbsymtb.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxmfcapi.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxregsvc.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\GenGridData.cpp : \
+	".\DrawUtil.h"\
+	".\gengriddata.h"\
+	".\GenGridDataDlg.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\tindata.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\actrans.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\adslib.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbdate.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\dbsymtb.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxregsvc.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\GenGridDataDlg.cpp : \
+	".\ContourArx.h"\
+	".\DrawUtil.h"\
+	".\GenGridDataDlg.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\GenPtsDlg.cpp : \
+	".\ContourArx.h"\
+	".\GenPtsDlg.h"\
+	".\stdafx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\GenPtsFrMultiSegDlg.cpp : \
+	".\ContourArx.h"\
+	".\DrawUtil.h"\
+	".\GenPtsFrMultiSegDlg.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\HAlignment.cpp : \
+	".\curvecalculator.h"\
+	".\DrawUtil.h"\
+	".\halignment.h"\
+	".\HorzCurveDataDlg.h"\
+	".\plinedataextractor.h"\
+	".\profiledatadlg.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	".\xsecdatadlg.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\acgiutil.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbdate.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbproxy.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\dbsymtb.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxmfcapi.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxregsvc.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\HorzCurveDataDlg.cpp : \
+	".\ContourArx.h"\
+	".\curvecalculator.h"\
+	".\HorzCurveDataDlg.h"\
+	".\profiledatadlg.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\Util.h"\
+	".\xsecdatadlg.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\ImportPts.cpp : \
+	".\ContourParamDlg.h"\
+	".\DrawUtil.h"\
+	".\DwgParamObj.h"\
+	".\GenPtsDlg.h"\
+	".\GenPtsFrMultiSegDlg.h"\
+	".\ImportPts.h"\
+	".\resourcehelper.h"\
+	".\ResultDlg.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\actrans.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\adslib.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbdate.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\dbsymtb.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxregsvc.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\Line2PLine.cpp : \
+	".\DrawUtil.h"\
+	".\Line2PLine.h"\
+	".\Structures.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\ModifyAnnotationDlg.cpp : \
+	".\DrawUtil.h"\
+	".\modifyannotationdlg.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\NEAnnotationEntity.cpp : \
+	".\DrawUtil.h"\
+	".\NEAnnotationEntity.h"\
+	".\NEEntPropDlg.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\acgiutil.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbdate.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbproxy.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\dbsymtb.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxmfcapi.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxregsvc.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\NEEntPropDlg.cpp : \
+	".\ContourArx.h"\
+	".\NEEntPropDlg.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\objreact.cpp : \
+	".\ContourArx.h"\
+	".\objreact.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\actrans.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\adslib.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxmfcapi.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\PLineDataExtractor.cpp : \
+	".\DrawUtil.h"\
+	".\plinedataextractor.h"\
+	".\profiledatadlg.h"\
+	".\QProfile.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\tindata.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\actrans.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\adslib.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbdate.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\dbsymtb.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxregsvc.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\Profile.cpp : \
+	".\ContourArx.h"\
+	".\DrawUtil.h"\
+	".\DwgParamObj.h"\
+	".\halignment.h"\
+	".\plinedataextractor.h"\
+	".\profile.h"\
+	".\profiledatadlg.h"\
+	".\QProfile.h"\
+	".\ResultDlg.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\tindata.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	".\xsecdatadlg.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\actrans.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\adslib.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbdate.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\dbsymtb.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxregsvc.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\ProfileDataDlg.cpp : \
+	".\ContourApp.h"\
+	".\ContourArx.h"\
+	".\ContourToolbar.h"\
+	".\profiledatadlg.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\ProfileDwgAttrs.cpp : \
+	".\profiledwgattrs.h"\
+	".\Structures.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\Protection.cpp : \
+	".\protection.h"\
+	".\stdafx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\adslib.h"\
+	
+
+.\Purge.cpp : \
+	".\DrawUtil.h"\
+	".\DwgParamObj.h"\
+	".\Purge.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\tindata.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\actrans.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\adslib.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbdate.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\dbsymtb.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxregsvc.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\QProfile.cpp : \
+	".\DrawUtil.h"\
+	".\profiledatadlg.h"\
+	".\QProfile.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	".\XData.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\ReadPtData.cpp : \
+	".\ReadPtData.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\resourcehelper.cpp : \
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\ResultDlg.cpp : \
+	".\resourcehelper.h"\
+	".\ResultDlg.h"\
+	".\stdafx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\stdafx.cpp : \
+	".\stdafx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\Structures.Cpp : \
+	".\Structures.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\adsdlg.h"\
+	"c:\program files\objectarx\inc\adslib.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\SubRoutines.cpp : \
+	".\ContourArx.h"\
+	".\CoOrdMarker.h"\
+	".\CoOrdMarkerPropDlg.h"\
+	".\DrawUtil.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\subroutines.h"\
+	".\TINEntity.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\actrans.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\adslib.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxmfcapi.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\TIN.cpp : \
+	".\Structures.h"\
+	".\TIN.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\TINData.cpp : \
+	".\ContourApp.h"\
+	".\ContourToolbar.h"\
+	".\DrawUtil.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\tindata.h"\
+	".\TINEntity.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\actrans.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\adslib.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbdate.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\dbsymtb.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxregsvc.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\TINEntity.cpp : \
+	".\DrawUtil.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbproxy.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxmfcapi.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxregsvc.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\Volume.cpp : \
+	".\DrawUtil.h"\
+	".\ResultDlg.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\tindata.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	".\Volume.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\actrans.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\adslib.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbdate.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\dbsymtb.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxregsvc.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\XData.Cpp : \
+	".\modifyannotationdlg.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\Util.h"\
+	".\XData.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\XSecDataDlg.cpp : \
+	".\ContourApp.h"\
+	".\ContourArx.h"\
+	".\ContourToolbar.h"\
+	".\resourcehelper.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\Util.h"\
+	".\xsecdatadlg.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\XSection.cpp : \
+	".\ContourArx.h"\
+	".\DrawUtil.h"\
+	".\DwgParamObj.h"\
+	".\halignment.h"\
+	".\plinedataextractor.h"\
+	".\profiledatadlg.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\tindata.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	".\xsecdatadlg.h"\
+	".\xsection.h"\
+	".\xsectiondwg.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\accmd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\aced.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\actrans.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\adslib.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbdate.h"\
+	"c:\program files\objectarx\inc\dbdict.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbjig.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\dbsymtb.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxregsvc.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	
+
+.\XSectionDwg.cpp : \
+	".\DrawUtil.h"\
+	".\stdafx.h"\
+	".\Structures.h"\
+	".\TINEntity.h"\
+	".\Util.h"\
+	".\XData.h"\
+	".\xsecdatadlg.h"\
+	".\xsectiondwg.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"c:\program files\objectarx\inc\acdb.h"\
+	"c:\program files\objectarx\inc\acgi.h"\
+	"c:\program files\objectarx\inc\adesk.h"\
+	"c:\program files\objectarx\inc\ads.h"\
+	"c:\program files\objectarx\inc\adscodes.h"\
+	"c:\program files\objectarx\inc\adsdef.h"\
+	"c:\program files\objectarx\inc\comsys.h"\
+	"c:\program files\objectarx\inc\dbaudita.h"\
+	"c:\program files\objectarx\inc\dbboiler.h"\
+	"c:\program files\objectarx\inc\dbcurve.h"\
+	"c:\program files\objectarx\inc\dbents.h"\
+	"c:\program files\objectarx\inc\dbfiler.h"\
+	"c:\program files\objectarx\inc\dbhandle.h"\
+	"c:\program files\objectarx\inc\dbid.h"\
+	"c:\program files\objectarx\inc\dbid_ops.h"\
+	"c:\program files\objectarx\inc\dbidapps.h"\
+	"c:\program files\objectarx\inc\dbidar.h"\
+	"c:\program files\objectarx\inc\dbintar.h"\
+	"c:\program files\objectarx\inc\dbmain.h"\
+	"c:\program files\objectarx\inc\dbmtext.h"\
+	"c:\program files\objectarx\inc\dbpl.h"\
+	"c:\program files\objectarx\inc\dbptrar.h"\
+	"c:\program files\objectarx\inc\dbspline.h"\
+	"c:\program files\objectarx\inc\dbsubeid.h"\
+	"c:\program files\objectarx\inc\gearc2d.h"\
+	"c:\program files\objectarx\inc\gearc3d.h"\
+	"c:\program files\objectarx\inc\geassign.h"\
+	"c:\program files\objectarx\inc\gecurv2d.h"\
+	"c:\program files\objectarx\inc\gecurv3d.h"\
+	"c:\program files\objectarx\inc\gedblar.h"\
+	"c:\program files\objectarx\inc\gedll.h"\
+	"c:\program files\objectarx\inc\geent2d.h"\
+	"c:\program files\objectarx\inc\geent3d.h"\
+	"c:\program files\objectarx\inc\gegbl.h"\
+	"c:\program files\objectarx\inc\geintrvl.h"\
+	"c:\program files\objectarx\inc\gelent2d.h"\
+	"c:\program files\objectarx\inc\gelent3d.h"\
+	"c:\program files\objectarx\inc\gelibver.h"\
+	"c:\program files\objectarx\inc\geline2d.h"\
+	"c:\program files\objectarx\inc\geline3d.h"\
+	"c:\program files\objectarx\inc\gelnsg2d.h"\
+	"c:\program files\objectarx\inc\gelnsg3d.h"\
+	"c:\program files\objectarx\inc\gemat2d.h"\
+	"c:\program files\objectarx\inc\gemat3d.h"\
+	"c:\program files\objectarx\inc\gepent2d.h"\
+	"c:\program files\objectarx\inc\gepent3d.h"\
+	"c:\program files\objectarx\inc\geplanar.h"\
+	"c:\program files\objectarx\inc\geplane.h"\
+	"c:\program files\objectarx\inc\gepnt2d.h"\
+	"c:\program files\objectarx\inc\gepnt3d.h"\
+	"c:\program files\objectarx\inc\geponc2d.h"\
+	"c:\program files\objectarx\inc\geponc3d.h"\
+	"c:\program files\objectarx\inc\gept2dar.h"\
+	"c:\program files\objectarx\inc\gept3dar.h"\
+	"c:\program files\objectarx\inc\gescl3d.h"\
+	"c:\program files\objectarx\inc\gesurf.h"\
+	"c:\program files\objectarx\inc\getol.h"\
+	"c:\program files\objectarx\inc\gevec2d.h"\
+	"c:\program files\objectarx\inc\gevec3d.h"\
+	"c:\program files\objectarx\inc\rxboiler.h"\
+	"c:\program files\objectarx\inc\rxclass.h"\
+	"c:\program files\objectarx\inc\rxcom.h"\
+	"c:\program files\objectarx\inc\rxdefs.h"\
+	"c:\program files\objectarx\inc\rxdict.h"\
+	"c:\program files\objectarx\inc\rxditer.h"\
+	"c:\program files\objectarx\inc\rxdlinkr.h"\
+	"c:\program files\objectarx\inc\rxiter.h"\
+	"c:\program files\objectarx\inc\rxnames.h"\
+	"c:\program files\objectarx\inc\rxobject.h"\
+	"c:\program files\objectarx\inc\rxsrvice.h"\
+	"c:\program files\objectarx\inc\rxsys.h"\
+	

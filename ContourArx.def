@@ -1,0 +1,6 @@
+DESCRIPTION 'ObjectARX Wizard application'
+LIBRARY     ContourArx
+
+EXPORTS     acrxEntryPoint
+            _SetacrxPtp
+            acrxGetApiVersion

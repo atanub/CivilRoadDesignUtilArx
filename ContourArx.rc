@@ -1,0 +1,1097 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR_CONTOUR TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_CONTOUR_PARAM
+    SEPARATOR
+    BUTTON      ID_BUTTON_IMPORTDATA
+    BUTTON      ID_BUTTON_ADD_POINTS
+    BUTTON      ID_BUTTON_GEN_POINTS
+    BUTTON      ID_BUTTON_GEN_POINTS_MULTI_SEG
+    BUTTON      ID_BUTTON_HARD_BREAK
+    BUTTON      ID_BUTTON_GEN_GRID_POINTS
+    BUTTON      ID_BUTTON_CHK_CONT_POINTS
+    SEPARATOR
+    BUTTON      ID_BUTTON_GENTIN
+    SEPARATOR
+    BUTTON      ID_DRAWCONTOUR
+    BUTTON      ID_BUTTON_AUTO_ANN
+    BUTTON      ID_BUTTON_MANUAL_ANN
+    BUTTON      ID_BUTTON_INSTANT_ANN
+    SEPARATOR
+    BUTTON      ID_BUTTON_HALIGNMENT
+    BUTTON      ID_BUTTON_EDIT_HALIGNMENT
+    BUTTON      ID_BUTTON_ANN_HALIGNMENT
+    SEPARATOR
+    BUTTON      ID_BUTTON_PROFILE
+    BUTTON      ID_BUTTON_PROFILE_EDIT
+    SEPARATOR
+    BUTTON      ID_ABOUT
+END
+
+IDR_TOOLBAR_CONTOUR_NEW TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_CONTOUR_PARAM
+    BUTTON      ID_BUTTON_INPUT
+    BUTTON      ID_BUTTON_GENTIN
+    BUTTON      ID_CONTOUR
+    BUTTON      ID_BUTTON_ANNOTATION
+    SEPARATOR
+    BUTTON      ID_BUTTON_PROFILE_MAIN
+    BUTTON      ID_X_SECTION
+    SEPARATOR
+    BUTTON      ID_BUTTON_UTIL
+    SEPARATOR
+    BUTTON      ID_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR_CONTOUR     BITMAP  DISCARDABLE     "toolbar1.bmp"
+IDR_TOOLBAR_CONTOUR_NEW BITMAP  DISCARDABLE     "res\\toolbar_.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_CONTOUR_PARAM DIALOG DISCARDABLE  0, 0, 243, 244
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Contour Parameters"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Contour Intervel :",IDC_STATIC,8,10,55,8
+    EDITTEXT        IDC_EDIT_INTERVEL,66,8,82,12,ES_AUTOHSCROLL
+    GROUPBOX        "&Annotation",IDC_STATIC,7,26,227,56
+    CONTROL         "&Draw Coloured Contours",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,17,39,93,10
+    LTEXT           "&Base Color :",IDC_STATIC,37,53,39,8
+    EDITTEXT        IDC_EDIT_BASE_CLR,82,51,33,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "&Automatic Text Annotation",IDC_CHECK_AUTO_TXT_ANN,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,128,39,99,10
+    LTEXT           "Text &Height :",IDC_STATIC,132,53,42,8
+    EDITTEXT        IDC_EDIT_TXT_HT,202,51,27,12,ES_AUTOHSCROLL
+    LTEXT           "Text &Spacing Factor :",IDC_STATIC,132,68,69,8
+    EDITTEXT        IDC_EDIT_TXT_SPA,202,66,27,12,ES_AUTOHSCROLL
+    GROUPBOX        "&Layer Settings",IDC_STATIC,7,84,227,59
+    LTEXT           "&Points :",IDC_STATIC,13,97,24,8
+    EDITTEXT        IDC_EDIT_POINT_LYR,99,96,122,12,ES_AUTOHSCROLL
+    LTEXT           "&Triangles :",IDC_STATIC,13,112,34,8
+    EDITTEXT        IDC_EDIT_TRG_LYR,99,111,122,12,ES_AUTOHSCROLL
+    LTEXT           "&Contour layer name prefix :",IDC_STATIC,13,127,84,8
+    EDITTEXT        IDC_EDIT_CONTOUR_LYR_PREFIX,99,126,122,12,ES_AUTOHSCROLL
+    GROUPBOX        "Spot &Level Settings",IDC_STATIC,7,148,227,72
+    CONTROL         "Dra&w Spot Levels while importing points",
+                    IDC_CHECK_SP_LEVEL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    14,160,141,10
+    LTEXT           "&Block :",IDC_STATIC,14,176,23,8
+    LTEXT           "Text &Height :",IDC_STATIC,135,176,42,8
+    EDITTEXT        IDC_EDIT_SP_LEV_TXT_HT,187,174,40,12,ES_AUTOHSCROLL
+    LTEXT           "&Relative Scale :",IDC_STATIC,14,190,51,8
+    EDITTEXT        IDC_EDIT_BLK_SCALE,70,189,61,12,ES_AUTOHSCROLL
+    LTEXT           "Rotation &Angle :",IDC_STATIC,135,190,52,8
+    EDITTEXT        IDC_EDIT_SP_LEV_ROT_ANGLE,187,189,40,12,ES_AUTOHSCROLL
+    LTEXT           "&Layer :",IDC_STATIC,14,205,22,8
+    EDITTEXT        IDC_EDIT_LYR_SP_LEVEL,70,204,61,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,62,225,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,130,225,50,14
+    COMBOBOX        IDC_COMBO_BLK_NAME,70,174,61,75,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_ABOUTME DIALOG DISCARDABLE  0, 0, 218, 86
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Me"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MYSELF,IDC_STATIC,14,13,20,20
+    LTEXT           "Atanu Banik",IDC_STATIC_DEV,40,13,119,8,SS_NOPREFIX
+    PUSHBUTTON      "OK",IDOK,179,7,32,14,WS_GROUP
+    LTEXT           "Contact Info :\r\tE-Mail: atanubanik@gmail.com\r\tTelephone +91 94332 61316 (Mobile)\r\tIndia.",
+                    IDC_STATIC_CONTACT,39,24,140,55
+END
+
+IDD_GEN_POINTS DIALOG DISCARDABLE  0, 0, 217, 86
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Generate Points"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Number of points :",IDC_STATIC,7,34,86,8
+    EDITTEXT        IDC_EDIT1,97,32,111,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "&Elevation :",IDC_STATIC_ELEV,7,49,86,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT2,97,47,111,12,ES_AUTOHSCROLL | ES_NUMBER | NOT 
+                    WS_VISIBLE
+    DEFPUSHBUTTON   "OK",IDOK,52,65,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,114,65,50,14
+    EDITTEXT        IDC_STATIC_DIST,7,7,203,23,ES_MULTILINE | ES_READONLY | 
+                    NOT WS_BORDER
+END
+
+IDD_DIALOG_ANNOTATE_CONTOUR_PARAM DIALOG DISCARDABLE  0, 0, 144, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Annotation Parameters"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "&Text Settings",-1,8,4,129,80
+    LTEXT           "Text &Height :",-1,12,19,46,8
+    EDITTEXT        IDC_EDIT_TXT_HT,71,17,59,12,ES_AUTOHSCROLL
+    LTEXT           "&Rotation Angle",-1,12,34,48,8
+    CONTROL         "&Along Contour Line(s)",IDC_RADIO_ANG_CNT_LINES,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,19,44,83,8
+    CONTROL         "Along the &Path Specified",IDC_RADIO_ANG_PATH,"Button",
+                    BS_AUTORADIOBUTTON,19,56,95,8
+    CONTROL         "&This Angle :",IDC_RADIO_ANG_USER,"Button",
+                    BS_AUTORADIOBUTTON,19,68,51,8
+    EDITTEXT        IDC_EDIT_ROTN,71,66,59,12,ES_AUTOHSCROLL
+    GROUPBOX        "&Layer Settings",-1,8,87,129,52
+    CONTROL         "&Current Layer",IDC_RADIO_LYR_CUR,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,13,102,98,8
+    CONTROL         "&Respective Elev. Layer",IDC_RADIO_LYR_AUTO,"Button",
+                    BS_AUTORADIOBUTTON,13,113,98,8
+    CONTROL         "&This Layer :",IDC_RADIO_LYR_USER,"Button",
+                    BS_AUTORADIOBUTTON,13,124,53,8
+    EDITTEXT        IDC_EDIT_LYR,67,122,64,12,ES_AUTOHSCROLL
+    CONTROL         "&Annotate smaller lines also",IDC_CHECK_FORCE_ANN,
+                    "Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | 
+                    WS_TABSTOP,8,142,129,8
+    DEFPUSHBUTTON   "OK",IDOK,16,160,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,77,160,50,14
+END
+
+IDD_ANN_ENTITY_PROP_DLG DIALOG DISCARDABLE  0, 0, 130, 71
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "NEAnnEntity Property"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Linear Unit Precision :",IDC_STATIC,4,6,70,8
+    EDITTEXT        IDC_EDIT1,77,4,20,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,97,4,8,
+                    12
+    LTEXT           "&Arrow Size :",IDC_STATIC,4,21,38,8
+    EDITTEXT        IDC_EDIT2,77,18,43,12,ES_AUTOHSCROLL
+    LTEXT           "&Text Size :",IDC_STATIC,3,35,38,8
+    EDITTEXT        IDC_EDIT3,77,32,43,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,8,52,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,70,52,50,14
+END
+
+IDD_DIALOG_ACTIVATION DIALOG DISCARDABLE  0, 0, 224, 103
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Activate Software"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_CONTOUR,IDC_STATIC,10,20,20,20
+    CTEXT           "Welcome to Contour Applocation",IDC_STATIC_MSG,35,7,160,
+                    44
+    LTEXT           "Enter &Activation Key :",IDC_STATIC,23,59,69,8
+    EDITTEXT        IDC_EDIT,97,57,86,12,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,53,82,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,120,82,50,14
+END
+
+IDD_TRANSLATE_TO_GRID DIALOG DISCARDABLE  0, 0, 181, 164
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Generate Points along Grid"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "&Grid Cell Dimension",IDC_STATIC,7,7,168,31
+    LTEXT           "&Width :",IDC_STATIC,13,20,24,8
+    EDITTEXT        IDC_EDIT1,39,18,47,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "&Height :",IDC_STATIC,91,20,26,8
+    EDITTEXT        IDC_EDIT2,121,18,47,12,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "Grid &Ordinate is Multiple of",IDC_STATIC,6,41,168,31
+    LTEXT           "&X-Ordinate :",IDC_STATIC,12,55,38,8
+    EDITTEXT        IDC_EDIT_X_ROFF,54,52,31,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "&Y-Ordinate :",IDC_STATIC,90,55,38,8
+    EDITTEXT        IDC_EDIT_Y_ROFF,137,52,31,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "&Draw Grid Lines",IDC_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,75,168,9
+    GROUPBOX        "&Layer(s) on which to draw ",IDC_STATIC,7,88,168,49
+    LTEXT           "Generated &Points :",IDC_STATIC,13,105,60,8
+    EDITTEXT        IDC_EDIT3,76,103,94,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "&Grid Lines :",IDC_STATIC,13,119,36,8
+    EDITTEXT        IDC_EDIT4,76,118,94,12,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "OK",IDOK,33,142,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,95,142,50,14
+END
+
+IDD_DIALOG_RESULT DIALOGEX 0, 0, 371, 174
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Result"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_RESULT,11,3,353,149,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | NOT WS_BORDER | 
+                    WS_VSCROLL | WS_HSCROLL,WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "OK",IDOK,202,155,50,14
+    PUSHBUTTON      "&Save",IDC_BUTTON_SAVE,118,155,50,14
+END
+
+IDD_GEN_POINTS_MULTI_SEG DIALOG DISCARDABLE  0, 0, 217, 113
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Generate Points"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Select Segmetnt :",IDC_STATIC,7,9,58,8
+    COMBOBOX        IDC_COMBO_SEGMENT,80,7,130,85,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Start &point :",IDC_STATIC,7,25,48,8
+    EDITTEXT        IDC_EDIT_START,80,23,130,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    LTEXT           "&End point :",IDC_STATIC,7,40,35,8
+    EDITTEXT        IDC_EDIT_END,80,39,130,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    LTEXT           "&Elevation Difference :",IDC_STATIC,7,55,69,8
+    EDITTEXT        IDC_EDIT_ELEV_DIFF,80,55,130,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+    LTEXT           "&Number of points to generate :",IDC_STATIC,7,73,96,8
+    EDITTEXT        IDC_EDIT_NO_OF_PTS,109,72,48,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    PUSHBUTTON      "Set &All",IDC_BUTTON_SET_ALL,160,71,50,14
+    DEFPUSHBUTTON   "OK",IDOK,45,92,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,123,92,50,14
+END
+
+IDD_PROFILE_CHG_Z DIALOG DISCARDABLE  0, 0, 270, 257
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Draw Profile"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "E&xaggeration",IDC_STATIC,4,5,123,45
+    LTEXT           "&Horizontal :",IDC_STATIC,11,19,36,8
+    EDITTEXT        IDC_EDIT_EXAG_HORZ,54,16,67,12,ES_AUTOHSCROLL
+    LTEXT           "&Vertical :",IDC_STATIC,13,34,28,8
+    EDITTEXT        IDC_EDIT_EXAG_VERT,54,31,67,12,ES_AUTOHSCROLL
+    CONTROL         "&Draw &Northing - Easting Row",IDC_CHECK_NE_TAG,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,4,55,107,10
+    LTEXT           "&Datum Level :",IDC_STATIC,131,10,45,8
+    EDITTEXT        IDC_EDIT_DATUM,212,9,50,12,ES_AUTOHSCROLL
+    LTEXT           "Start &Chainage :",IDC_STATIC,131,24,52,8
+    EDITTEXT        IDC_EDIT_START_CHG,212,22,50,12,ES_AUTOHSCROLL
+    LTEXT           "&Section Interval :",IDC_STATIC,131,38,54,8
+    EDITTEXT        IDC_EDIT_SECTION_INTERVAL,212,36,50,12,ES_AUTOHSCROLL
+    LTEXT           "&Section Interval (Minor) :",IDC_STATIC,131,52,78,8
+    EDITTEXT        IDC_EDIT_SECTION_INTERVAL_MINOR,212,50,50,12,
+                    ES_AUTOHSCROLL
+    LTEXT           "Profile Path &Width :",IDC_STATIC,131,67,62,8
+    EDITTEXT        IDC_EDIT_PROFILE_PATH_WIDTH,212,65,50,12,ES_AUTOHSCROLL
+    GROUPBOX        "&Annotation Tags",IDC_STATIC,4,81,258,73
+    LTEXT           "&Northing :",IDC_STATIC,12,94,32,8
+    EDITTEXT        IDC_EDIT_NORTHING_TAG,87,92,62,12,ES_AUTOHSCROLL
+    LTEXT           "&Easting :",IDC_STATIC,156,94,28,8
+    EDITTEXT        IDC_EDIT_EASTING_TAG,194,92,62,12,ES_AUTOHSCROLL
+    LTEXT           "E&levation :",IDC_STATIC,12,109,34,8
+    EDITTEXT        IDC_EDIT_ELEV_TAG,87,106,62,12,ES_AUTOHSCROLL
+    LTEXT           "&Distance :",IDC_STATIC,156,108,33,8
+    EDITTEXT        IDC_EDIT_DISTANCE_TAG,194,106,62,12,ES_AUTOHSCROLL
+    LTEXT           "&Cumulative Distance :",IDC_STATIC,12,123,70,8
+    EDITTEXT        IDC_EDIT_CUM_DISTANCE_TAG,87,121,62,12,ES_AUTOHSCROLL
+    LTEXT           "Dat&um :",IDC_STATIC,156,123,26,8
+    EDITTEXT        IDC_EDIT_DATUM_TAG,194,121,62,12,ES_AUTOHSCROLL
+    LTEXT           "Profile Label :",IDC_STATIC,12,138,44,8
+    EDITTEXT        IDC_EDIT_PROFILE_LABEL,58,137,198,12,ES_AUTOHSCROLL
+    GROUPBOX        "&Annotation Size(s)",IDC_STATIC,4,158,260,29
+    LTEXT           "&Row Label :",IDC_STATIC,7,172,39,8
+    EDITTEXT        IDC_EDIT_LAB_TXT_SIZE,46,170,27,12,ES_AUTOHSCROLL
+    LTEXT           "N&umeric :",IDC_STATIC,74,172,31,8
+    EDITTEXT        IDC_EDIT_NUM_TXT_SIZE,105,170,27,12,ES_AUTOHSCROLL
+    LTEXT           "&Pfl Label :",IDC_STATIC,134,172,32,8
+    EDITTEXT        IDC_EDIT_PFL_LABEL_TXT_SIZE,172,170,27,12,ES_AUTOHSCROLL
+    LTEXT           "&Row Ht :",IDC_STATIC,202,172,29,8
+    EDITTEXT        IDC_EDIT_ROW_HT,233,170,27,12,ES_AUTOHSCROLL
+    GROUPBOX        "&Layer Setting",IDC_STATIC,4,190,258,44
+    LTEXT           "&Annotation :",IDC_STATIC,11,205,39,8
+    EDITTEXT        IDC_EDIT_LYR_ANNOTATION,51,203,79,12,ES_AUTOHSCROLL
+    LTEXT           "Top &Surface :",IDC_STATIC,135,205,44,8
+    EDITTEXT        IDC_EDIT_LYR_TOP_SURFACE,181,203,79,12,ES_AUTOHSCROLL
+    LTEXT           "&Ordinate :",IDC_STATIC,11,219,32,8
+    EDITTEXT        IDC_EDIT_LYR_ORDINATE,51,218,79,12,ES_AUTOHSCROLL
+    LTEXT           "&Axis :",IDC_STATIC,135,219,18,8
+    EDITTEXT        IDC_EDIT_LYR_AXIS,181,218,79,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,63,240,50,14,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,158,240,50,14,WS_GROUP
+END
+
+IDD_XSEC_DATA DIALOG DISCARDABLE  0, 0, 299, 308
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Cross Section"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "&Datum Level Ranges",IDC_STATIC,5,4,176,93
+    CONTROL         "Calculate Datum &Automatically",IDC_CHECK_AUTO_DATUM,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,16,109,10
+    LTEXT           "Datum &Denominator:",IDC_STATIC,9,28,66,8
+    EDITTEXT        IDC_EDIT_DATUM_DENOMINATOR,77,27,31,12,ES_AUTOHSCROLL
+    LTEXT           "&Margin:",IDC_STATIC,114,28,24,8
+    EDITTEXT        IDC_EDIT_MARGIN,141,26,31,12,ES_AUTOHSCROLL
+    LTEXT           "&Start :",IDC_STATIC,9,50,20,8
+    EDITTEXT        IDC_EDIT_DATUM_START,29,49,29,12,ES_AUTOHSCROLL
+    LTEXT           "&End :",IDC_STATIC,9,66,18,8
+    EDITTEXT        IDC_EDIT_DATUM_END,29,65,29,12,ES_AUTOHSCROLL
+    LTEXT           "&Elev :",IDC_STATIC,9,81,19,8
+    EDITTEXT        IDC_EDIT_DATUM_ELEV,29,80,29,12,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_ADD_RANGE,60,49,15,12
+    LISTBOX         IDC_LIST_LEV_RANGE,76,48,102,45,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "<<",IDC_BUTTON_DEL_RANGE,60,63,15,12
+    GROUPBOX        "C/S &Attributes",IDC_STATIC,184,4,110,93
+    LTEXT           "Start &Chainage :",IDC_STATIC,187,17,52,8
+    EDITTEXT        IDC_EDIT_START_CHG,247,16,42,12,ES_AUTOHSCROLL
+    LTEXT           "&C/S Interval :",IDC_STATIC,187,33,43,8
+    EDITTEXT        IDC_EDIT_CS_INTERVAL,247,32,42,12,ES_AUTOHSCROLL
+    LTEXT           "&Ordinate Interval :",IDC_STATIC,187,66,57,8
+    EDITTEXT        IDC_EDIT_ORD_INTERVAL,247,65,42,12,ES_AUTOHSCROLL
+    LTEXT           "&Max Offset :",IDC_STATIC,187,83,39,8
+    EDITTEXT        IDC_EDIT_MAX_OFFSET,247,81,42,12,ES_AUTOHSCROLL
+    CONTROL         "&Draw All Sections ",IDC_CHECK_DRAW_SECTIONS_ON_POI,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,102,72,10
+    GROUPBOX        "E&xaggeration",IDC_STATIC,7,119,86,58
+    LTEXT           "&Horz. :",IDC_STATIC,13,133,22,8
+    EDITTEXT        IDC_EDIT_EXAG_HORZ,40,132,49,12,ES_AUTOHSCROLL
+    LTEXT           "&Vert. :",IDC_STATIC,13,148,20,8
+    EDITTEXT        IDC_EDIT_EXAG_VERT,40,147,49,12,ES_AUTOHSCROLL
+    GROUPBOX        "&Drawing Sheet Detail",IDC_STATIC,95,119,201,58
+    COMBOBOX        IDC_COMBO_SHEET,99,130,114,86,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Width :",IDC_STATIC,99,149,24,8
+    EDITTEXT        IDC_EDIT_SHEET_WIDTH,131,147,80,12,ES_AUTOHSCROLL
+    LTEXT           "&Height :",IDC_STATIC,99,163,26,8
+    EDITTEXT        IDC_EDIT_SHEET_HEIGHT,131,161,80,12,ES_AUTOHSCROLL
+    GROUPBOX        "&Name Plate Detail",IDC_STATIC,215,127,75,46
+    LTEXT           "&Width :",IDC_STATIC,220,143,24,8
+    EDITTEXT        IDC_EDIT_NAMEPLATE_WIDTH,246,141,39,12,ES_AUTOHSCROLL
+    LTEXT           "&Height :",IDC_STATIC,220,155,26,8
+    EDITTEXT        IDC_EDIT_NAMEPLATE_HEIGHT,246,155,39,12,ES_AUTOHSCROLL
+    GROUPBOX        "&Annotation Tags",IDC_STATIC,7,180,207,69
+    LTEXT           "&Northing :",IDC_STATIC,12,193,32,8
+    EDITTEXT        IDC_EDIT_NORTHING_TAG,47,191,52,12,ES_AUTOHSCROLL
+    LTEXT           "&Easting :",IDC_STATIC,102,193,28,8
+    EDITTEXT        IDC_EDIT_EASTING_TAG,159,191,52,12,ES_AUTOHSCROLL
+    LTEXT           "E&levation :",IDC_STATIC,12,207,34,8
+    EDITTEXT        IDC_EDIT_ELEV_TAG,47,205,52,12,ES_AUTOHSCROLL
+    LTEXT           "&Offset :",IDC_STATIC,102,207,24,8
+    EDITTEXT        IDC_EDIT_OFFSET_TAG,159,205,52,12,ES_AUTOHSCROLL
+    LTEXT           "Dat&um :",IDC_STATIC,12,220,26,8
+    EDITTEXT        IDC_EDIT_DATUM_TAG,47,219,52,12,ES_AUTOHSCROLL
+    LTEXT           "C/S Label Prefix :",IDC_STATIC,102,222,56,8
+    EDITTEXT        IDC_EDIT_CS_LABEL_TAG,159,220,52,12,ES_AUTOHSCROLL
+    CONTROL         "&Draw Nothing/Easting Annotation Rows",
+                    IDC_CHECK_DRAW_NE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    12,236,195,10
+    GROUPBOX        "&Annotation Size(s)",IDC_STATIC,216,180,80,69
+    LTEXT           "&Row Label :",IDC_STATIC,222,191,39,8
+    EDITTEXT        IDC_EDIT_LAB_TXT_SIZE,263,190,27,12,ES_AUTOHSCROLL
+    LTEXT           "N&umeric :",IDC_STATIC,222,204,31,8
+    EDITTEXT        IDC_EDIT_NUM_TXT_SIZE,263,204,27,12,ES_AUTOHSCROLL
+    LTEXT           "C/S Label :",IDC_STATIC,222,219,37,8
+    EDITTEXT        IDC_EDIT_CS_LABEL_TXT,263,219,27,12,ES_AUTOHSCROLL
+    LTEXT           "&Row Ht :",IDC_STATIC,222,233,29,8
+    EDITTEXT        IDC_EDIT_ROW_HT,263,233,27,12,ES_AUTOHSCROLL
+    GROUPBOX        "&Layer Setting",IDC_STATIC,7,251,289,30
+    LTEXT           "&Annotation :",IDC_STATIC,65,266,39,8
+    EDITTEXT        IDC_EDIT_LYR_ANNOTATION,106,264,35,12,ES_AUTOHSCROLL
+    LTEXT           "Top &Surface :",IDC_STATIC,142,266,44,8
+    EDITTEXT        IDC_EDIT_LYR_TOP_SURFACE,186,264,35,12,ES_AUTOHSCROLL
+    LTEXT           "&Ordinate :",IDC_STATIC,224,266,32,8
+    EDITTEXT        IDC_EDIT_LYR_ORDINATE,257,264,35,12,ES_AUTOHSCROLL
+    LTEXT           "&Axis :",IDC_STATIC,10,266,18,8
+    EDITTEXT        IDC_EDIT_LYR_AXIS,28,264,35,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,85,286,50,14,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,168,286,50,14,WS_GROUP
+    LTEXT           "&C/S Interval Minor:",IDC_STATIC,187,49,60,8
+    EDITTEXT        IDC_EDIT_CS_INTERVAL_MINOR,247,49,42,12,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_CONTOUR_BOUNDARY DIALOG DISCARDABLE  0, 0, 139, 170
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Contour Boundary"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "&Consider all contour points",
+                    IDC_CHECK_CONSIDER_ALL_PTS,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,6,6,99,10
+    CONTROL         "&Define Boundary",IDC_CHECK_DEFINE_BOUNDARY,"Button",
+                    BS_AUTORADIOBUTTON,6,20,69,10
+    PUSHBUTTON      "...",IDC_BUTTON_VIEW_BOUNDARY,75,17,12,14
+    PUSHBUTTON      "Select <",IDC_BUTTON_SEL_BOUNDARY,89,17,41,14
+    GROUPBOX        "Define &Holes",IDC_STATIC,6,33,124,111
+    LTEXT           "&Name :",IDC_STATIC,11,47,24,8
+    EDITTEXT        IDC_EDIT_HOLE_NAME,36,45,34,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "V",IDC_BUTTON_VIEW_HOLE,71,46,12,11
+    PUSHBUTTON      "N",IDC_BUTTON_NEW_HOLE,85,46,12,11
+    PUSHBUTTON      "D",IDC_BUTTON_DEL_HOLE,99,46,12,11
+    PUSHBUTTON      "A",IDC_BUTTON_DEL_ALL_HOLES,113,46,12,11
+    LISTBOX         IDC_LIST_HOLES,11,60,114,79,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,13,150,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,75,150,50,14
+END
+
+IDD_DIALOG_HORZ_PI_DATA DIALOG DISCARDABLE  0, 0, 230, 121
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Curve Parameters"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "&Curve Setting",IDC_STATIC,8,4,157,92
+    CONTROL         "&Radius :",IDC_RADIO_RADIUS,"Button",BS_AUTORADIOBUTTON,
+                    13,18,42,10
+    EDITTEXT        IDC_EDIT_RADIUS,98,17,59,12,ES_AUTOHSCROLL
+    CONTROL         "&Tangent Length :",IDC_RADIO_TANGENT_LENGTH,"Button",
+                    BS_AUTORADIOBUTTON,13,33,71,10
+    EDITTEXT        IDC_EDIT_TANGENT_LEN,98,32,59,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    CONTROL         "&External Length :",IDC_RADIO_XTERNAL_LENGTH,"Button",
+                    BS_AUTORADIOBUTTON,13,49,69,10
+    EDITTEXT        IDC_EDIT_XTERNAL_LEN,98,48,59,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    CONTROL         "&Curve Length :",IDC_RADIO_CURVE_LENGTH,"Button",
+                    BS_AUTORADIOBUTTON,13,65,63,10
+    EDITTEXT        IDC_EDIT_CURVE_LEN,98,64,59,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    CONTROL         "&Degree of Curvature :",IDC_RADIO_DEG_OF_CURVE,"Button",
+                    BS_AUTORADIOBUTTON,13,80,84,10
+    EDITTEXT        IDC_EDIT_DEG_OF_CURVE,98,79,59,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    PUSHBUTTON      "&Calculate",IDCALC,8,101,50,14
+    PUSHBUTTON      "&Profile Data...",IDPROFILE,169,65,57,14
+    PUSHBUTTON      "C/S Data...",IDCROSS_SECTION,169,82,57,14
+    DEFPUSHBUTTON   "OK",IDOK,62,101,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,115,101,50,14
+END
+
+IDD_COORD_ANN_ENT_PROP_DLG DIALOG DISCARDABLE  0, 0, 129, 98
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CoOrd Marker Property"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Linear Unit Precision :",IDC_STATIC,4,6,70,8
+    EDITTEXT        IDC_EDIT1,90,4,20,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,112,4,11,
+                    12
+    LTEXT           "&Text Size :",IDC_STATIC,4,22,38,8
+    EDITTEXT        IDC_EDIT3,90,20,30,12,ES_AUTOHSCROLL
+    LTEXT           "&Relative Scale of Marker :",IDC_STATIC,4,38,83,8
+    EDITTEXT        IDC_EDIT2,90,36,30,12,ES_AUTOHSCROLL
+    LTEXT           "&Rotation Angle :",IDC_STATIC,4,55,52,8
+    EDITTEXT        IDC_EDIT4,90,53,20,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN2,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,112,53,
+                    11,12
+    DEFPUSHBUTTON   "OK",IDOK,7,75,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,69,75,50,14
+END
+
+IDD_MODIFY_SURV_TAGS_DLG DIALOG DISCARDABLE  0, 0, 227, 76
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Modify Survey Annotation"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Select Annotation to Modify :",IDC_STATIC,13,16,92,8
+    COMBOBOX        IDC_COMBO1,106,14,114,58,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Value To Add :",IDC_STATIC,14,30,78,8
+    EDITTEXT        IDC_EDIT1,106,30,104,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,50,53,50,14,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,126,53,50,14,WS_GROUP
+END
+
+IDD_LICENSE_KEY_SELECTION DIALOGEX 0, 0, 251, 49
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ContourARX� License Key"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&OK",IDOK,69,28,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,132,28,50,14
+    LTEXT           "&Select License Key File:",-1,7,10,76,8
+    EDITTEXT        IDC_EDIT1,87,7,142,13,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "...",IDC_BUTTON_FILE,232,7,12,14
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 217, 133
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Contour ARX�"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    ICON            IDR_CONTOUR,IDC_STATIC,7,7,20,20
+    LTEXT           "Contour ARX� Version 2.0",IDC_STATIC,35,7,119,8,
+                    SS_NOPREFIX
+    DEFPUSHBUTTON   "All Rights Reserved� (Press for developer's Info)",
+                    IDC_BUTTON_ME,35,17,175,12,BS_LEFT | BS_VCENTER | 
+                    BS_FLAT
+    LTEXT           "License Info:",IDC_STATIC_LICENSE,7,30,203,24
+    PUSHBUTTON      "OK",IDOK,120,112,50,14,WS_GROUP
+    EDITTEXT        IDC_EDIT_DISP_INSTALL_INFO,7,63,203,45,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY,WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "&Reset License",IDC_BUTTON_LICENSE_RESET,46,112,63,14
+END
+
+IDD_DIALOG_RAILWAY_DESIGN_TEMPLATE DIALOG DISCARDABLE  0, 0, 207, 209
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Railway Design Template"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "&Template Type",IDC_STATIC,7,7,193,28
+    CONTROL         "&Cutting",IDC_RADIO_CUTTING,"Button",BS_AUTORADIOBUTTON,
+                    21,20,38,10
+    CONTROL         "&Filling",IDC_RADIO_FILLING,"Button",BS_AUTORADIOBUTTON,
+                    115,20,38,10
+    GROUPBOX        "&Define Slopes",IDC_STATIC,7,43,193,137
+    LTEXT           "Berm &Width",IDC_STATIC,21,58,38,8
+    LTEXT           "Slope",IDC_STATIC,70,58,19,8
+    LTEXT           "&Height of Slope",IDC_STATIC,106,58,54,8
+    DEFPUSHBUTTON   "OK",IDOK,41,188,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,116,188,50,14
+    LTEXT           "DUMMY",IDC_STATIC_DUMMY,13,74,179,102,SS_SUNKEN | NOT 
+                    WS_VISIBLE | WS_BORDER
+END
+
+IDD_PROFILE_DESIGN_DATA DIALOGEX 0, 0, 299, 246
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Design Data"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,80,219,50,14,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,147,220,50,14,WS_GROUP
+    GROUPBOX        "Define Designed Sections",IDC_STATIC,7,7,276,61
+    GROUPBOX        "Apply Designed Sections",IDC_STATIC,7,73,196,68
+    DEFPUSHBUTTON   "<< Define Profile",IDC_BUTTON_PICK_PLINE,209,51,71,14,
+                    WS_GROUP
+    GROUPBOX        "Vertical Alignment Detail",IDC_STATIC,7,146,277,68
+    DEFPUSHBUTTON   "<< Select VAlignment",IDC_BUTTON_PICK_VALIGNMENT,210,
+                    199,71,14,WS_GROUP
+    LTEXT           "IDC_STATIC_DEFINE_DSGN_SECTION",
+                    IDC_STATIC_DEFINE_DSGN_SECTION,14,17,187,47,WS_BORDER,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "IDC_STATIC_SET_DSGN_SECTION",
+                    IDC_STATIC_SET_DSGN_SECTION,11,85,187,47,WS_BORDER,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "IDC_STATIC_VALIGNMENT_DATA",IDC_STATIC_VALIGNMENT_DATA,
+                    13,160,187,47,WS_BORDER,WS_EX_CLIENTEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_CONTOUR_PARAM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 237
+    END
+
+    IDD_ABOUTME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    IDD_GEN_POINTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    IDD_DIALOG_ANNOTATE_CONTOUR_PARAM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 137
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_ANN_ENTITY_PROP_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 123
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_DIALOG_ACTIVATION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 217
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_TRANSLATE_TO_GRID, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 174
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_DIALOG_RESULT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 364
+        VERTGUIDE, 28
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_GEN_POINTS_MULTI_SEG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 106
+    END
+
+    IDD_PROFILE_CHG_Z, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 250
+    END
+
+    IDD_XSEC_DATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 292
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 301
+    END
+
+    IDD_DIALOG_CONTOUR_BOUNDARY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 132
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 163
+    END
+
+    IDD_DIALOG_HORZ_PI_DATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 114
+    END
+
+    IDD_COORD_ANN_ENT_PROP_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 122
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_MODIFY_SURV_TAGS_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 220
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 69
+    END
+
+    IDD_LICENSE_KEY_SELECTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 42
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 126
+    END
+
+    IDD_DIALOG_RAILWAY_DESIGN_TEMPLATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+
+    IDD_PROFILE_DESIGN_DATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 292
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 239
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MYSELF              ICON    DISCARDABLE     "res\\idr_main.ico"
+IDR_CONTOUR             ICON    DISCARDABLE     "res\\idr_cont.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Atanu Banik\0"
+            VALUE "FileDescription", "ContourArx\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ContourArx\0"
+            VALUE "LegalCopyright", "Copyright � 2000\0"
+            VALUE "LegalTrademarks", "ABan\0"
+            VALUE "OriginalFilename", "ContourArx.arx\0"
+            VALUE "ProductName", "Contour ARX Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_POPUP MENU DISCARDABLE 
+BEGIN
+    POPUP "&Contour Input"
+    BEGIN
+        POPUP "Import Points"
+        BEGIN
+            MENUITEM "From &Data File...",          ID_BUTTON_IMPORTDATA
+            MENUITEM "From &Current Drawing",       ID_BUTTON_ADD_POINTS
+        END
+        POPUP "Generate Points"
+        BEGIN
+            MENUITEM "&Linear Interpolation between Two points", 
+                                                    ID_BUTTON_GEN_POINTS
+            MENUITEM "Linear &Interpolation (From 3DPolyline Vertexes)...", 
+                                                    ID_BUTTON_GEN_POINTS_MULTI_SEG
+
+            MENUITEM SEPARATOR
+            MENUITEM "&Hard Break Line between Two Points...", 
+                                                    ID_BUTTON_HARD_BREAK
+            MENUITEM SEPARATOR
+            MENUITEM "Along Grid...",               ID_BUTTON_GEN_GRID_POINTS
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Check Duplicate Points",     ID_BUTTON_CHK_CONT_POINTS
+    END
+    POPUP "Contour"
+    BEGIN
+        MENUITEM "Contour &Parameters...",      ID_CONTOUR_PARAM
+        MENUITEM "&Draw Contour",               ID_DRAWCONTOUR
+        MENUITEM "&Draw Contour of Specified Elevation", 
+                                                ID_DRAWCONTOUR_USER_SPEC
+        MENUITEM SEPARATOR
+        MENUITEM "&Delete All Contours...",     ID_DEL_CONTOUR
+        MENUITEM SEPARATOR
+        MENUITEM "&Compact Contour Lines",      ID_COMPACT_CONTOUR_LINES
+        MENUITEM SEPARATOR
+        MENUITEM "Calculate Volume...",         ID_CALCULATE_VOLUME
+    END
+    POPUP "Contour Annotation"
+    BEGIN
+        MENUITEM "&Annotate All Contour Lines...", ID_BUTTON_AUTO_ANN
+        MENUITEM "Set Auto-Annotation &Parameters...", ID_CONTOUR_PARAM
+        MENUITEM SEPARATOR
+        MENUITEM "Annotate &Selected Contour Lines", ID_BUTTON_MANUAL_ANN
+        MENUITEM "&Instant Annotation for Single Contour Line", 
+                                                ID_BUTTON_INSTANT_ANN
+        MENUITEM "&Set Annotation Parameters...", ID_SET_CONT_ANN_PARAMS
+        MENUITEM SEPARATOR
+        MENUITEM "&Convert Polyline to Contour Entity", 
+                                                ID_BUTTON_CONVERT_TOCONTOUR_ENT
+
+    END
+    POPUP "Profile"
+    BEGIN
+        MENUITEM "Draw Profile...",             ID_BUTTON_PROFILE
+        MENUITEM "&Edit Profile Annotation...", ID_BUTTON_PROFILE_EDIT
+        MENUITEM SEPARATOR
+        POPUP "Alignment"
+        BEGIN
+            POPUP "&Horizontal"
+            BEGIN
+                MENUITEM "&Create",                     ID_BUTTON_HALIGNMENT
+                MENUITEM "&Edit...",                    ID_BUTTON_EDIT_HALIGNMENT
+
+                MENUITEM "&Revert",                     ID_BUTTON_REVERT_HALIGNMENT
+
+                MENUITEM SEPARATOR
+                MENUITEM "Annotate &Vertex",            ID_BUTTON_ANN_HALIGNMENT
+
+            END
+        END
+    END
+    POPUP "Cross Section"
+    BEGIN
+        MENUITEM "&Draw Cross Section",         ID_DRAW_X_SECTION
+        MENUITEM SEPARATOR
+        POPUP "Alignment"
+        BEGIN
+            POPUP "&Horizontal"
+            BEGIN
+                MENUITEM "&Create",                     ID_BUTTON_HALIGNMENT
+                MENUITEM "&Edit...",                    ID_BUTTON_EDIT_HALIGNMENT
+
+                MENUITEM "&Revert",                     ID_BUTTON_REVERT_HALIGNMENT
+
+                MENUITEM SEPARATOR
+                MENUITEM "Annotate &Vertex",            ID_BUTTON_ANN_HALIGNMENT
+
+            END
+            POPUP "&Vertical"
+            BEGIN
+                MENUITEM "&Create",                     ID_BUTTON_VALIGNMENT
+                MENUITEM "&Edit...",                    ID_BUTTON_EDIT_VALIGNMENT
+
+                MENUITEM SEPARATOR
+            END
+        END
+    END
+    POPUP "Utilities"
+    BEGIN
+        MENUITEM "&Divide Polyline",            ID_DIVIDE_POLYLINE
+        MENUITEM "&Revert Polyline",            ID_REVERT_POLYLINE
+        MENUITEM SEPARATOR
+        MENUITEM "&Annotate Contour Points....", ID_ANN_CONTOUR_PTS
+        MENUITEM "Set &Parameters...",          ID_CONTOUR_PARAM
+        MENUITEM SEPARATOR
+        POPUP "CoOrdinate Marker"
+        BEGIN
+            MENUITEM "&Draw",                       ID_DRAW_COORD_MARKER
+            MENUITEM "&Edit...",                    ID_EDIT_COORD_MARKER
+            MENUITEM "&Insert On Selected Points",  ID_INS_COORD_MARKER
+        END
+        MENUITEM SEPARATOR
+        POPUP "Northing-Easting Annotation"
+        BEGIN
+            MENUITEM "&Draw",                       ID_DRAW_NEANN_ENTITY
+            MENUITEM "&Edit",                       ID_EDIT_NEANN_ENTITY
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Purge All",                  ID_PURGE_ALL
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_BUTTON_GENTIN        "Generate Triangular Irregulation Network\nGenerate Triangular Irregulation Network"
+    ID_DRAWCONTOUR          "Draw Contour\nDraw Contour"
+    ID_CONTOUR_PARAM        "Contour Parameters\nContour Parameters"
+    ID_BUTTON_IMPORTDATA    "Import Contour Points\nImport Contour Points"
+    ID_ABOUT                "About Developer\nAbout Developer"
+    ID_BUTTON_GEN_POINTS    "Generate points using linear interpolation\nGenerate points using linear interpolation"
+    ID_BUTTON_ADD_POINTS    "Import points from current drawing\nImport points from current drawing"
+    ID_BUTTON_HARD_BREAK    "Generate Hard Break Line\nGenerate Hard Break Line"
+    ID_BUTTON_AUTO_ANN      "Annotates all the contour lines\nAnnotates all the contour lines"
+    ID_BUTTON_MANUAL_ANN    "Manual Annotation\nManual Annotation"
+    ID_BUTTON_INSTANT_ANN   "Instant Annotation\nInstant Annotation"
+    ID_BUTTON_GEN_GRID_POINTS 
+                            "Generate Points along Grid...\nGenerate Points along Grid..."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING_AUTH_CODE_TAG "Auth. Code"
+    IDS_ABOUTBOX            "&About ContourARX�"
+    IDS_STRING_COMPANY      "Atanu Banik"
+    IDS_STRING_SW_NAME      "ContourARX"
+    IDS_STRING_AUTH_CODE_VAL "001-PS-1999-2000"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STRING_ACTIVATION_CODE_VAL "ACODE-PS-1999-2000"
+    IDS_STRING_ACTIVATION_CODE_TAG "A_CODE_CONT"
+    IDS_STRING_VERSION      "1.1.2"
+    IDS_STRING_AUTH_CODE_TAG2 "Auth. Code"
+    IDS_STRING_AUTH_CODE_VAL2 "001-PS-1999-2000"
+    IDS_STRING_ACTIVATION_CODE_VAL2 "ACODE-PS-1999-2000"
+    IDS_STRING_ACTIVATION_CODE_TAG2 "ACODE"
+    IDS_STRING_THIS_ARX_REG_PATH 
+                            "Software\\Atanu Banik\\ARX Applications"
+    IDS_STRING_THIS_ARX_NAME "Contour"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_BUTTON_GEN_POINTS_MULTI_SEG 
+                            "Generate points using linear interpolation taking 3DPolyline vertexes as input\nGenerate points using linear interpolation taking &3DPolyline vertexes as input"
+    ID_BUTTON_CHK_CONT_POINTS 
+                            "Check & Removes Duplicate Points\nCheck & Removes Duplicate Points"
+    ID_BUTTON_PROFILE       "Draws Profile\nDraws Profile"
+    ID_BUTTON_PROFILE_EDIT  "Edits Profile Annotation\nEdits Profile Annotation"
+    ID_BUTTON_HALIGNMENT    "Create Horizontal Alignment\nCreate Horizontal Alignment"
+    ID_BUTTON_EDIT_HALIGNMENT 
+                            "Edit Horizontal Alignment\nEdit Horizontal Alignment"
+    ID_BUTTON_ANN_HALIGNMENT 
+                            "Annotate Horizontal Alignment Vertex\nAnnotate Horizontal Alignment Vertex"
+    ID_COMPACT_CONTOUR_LINES "Compact Contour Lines\nCompact Contour Lines"
+    ID_SET_CONT_ANN_PARAMS  "Set Annotation Parameters\r\nSet Annotation Parameters"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_CROSSSECTION_DRAWCROSSSECTION 
+                            "Draw Cross Section\r\nDraw Cross Section"
+    ID_DRAW_X_SECTION       "Draw Cross Section\r\nDraw Cross Section"
+    ID_UTILITIES_ANNOTATECONTOURPOINTS 
+                            "Annotate Contour Points\r\nAnnotate Contour Points"
+    ID_ANN_CONTOUR_PTS      "Annotate Contour Points\r\nAnnotate Contour Points"
+    ID_DRAW_COORD_MARKER    "Draw CoOrdinate Marker\r\nDraw CoOrdinate Marker"
+    ID_EDIT_COORD_MARKER    "Edit CoOrdinate Marker\r\nEdit CoOrdinate Marker"
+    ID_INS_COORD_MARKER     "Insert On Selected Points\r\nInsert On Selected Points"
+    ID_PURGE_ALL            "Purges all data objects created by this application\r\nPurges all data objects created by this application"
+    ID_DRAW_NEANN_ENTITY    "Draw Northing-Easting Annotation Entity\r\nDraw Northing-Easting Annotation Entity"
+    ID_EDIT_NEANN_ENTITY    "Edit Northing-Easting Annotation Entity\r\nEdit Northing-Easting Annotation Entity"
+    ID_BUTTON_INPUT         "Contour Data Input Related Items\r\nContour Data Input Related Items"
+    ID_CONTOUR              "Contour Drawing Generation Related\r\nContour Drawing Generation Related"
+    ID_BUTTON_ANNOTATION    "Contour Annotation Related Items\r\nContour Annotation Related Items"
+    ID_BUTTON_PROFILE_MAIN  "Profile Drawing Related\r\nProfile Drawing Related"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_X_SECTION            "Cross Section Related\r\nCross Section Related"
+    ID_BUTTON_UTIL          "General Utilities\r\nGeneral Utilities"
+    ID_CALCULATE_VOLUME     "Calculate Volume of a specified area defined by closed 2DPolyline\r\nCalculate Volume of a specified area defined by closed 2DPolyline"
+    ID_BUTTON_REVERT_HALIGNMENT 
+                            "Revert Horizontal Alignment\r\nRevert Horizontal Alignment"
+    ID_DRAWCONTOUR_USER_SPEC 
+                            "Draw Contour of Specified Elevation\r\nDraw Contour of Specified Elevation"
+    ID_DEL_CONTOUR          "Delete all Contour\r\nDelete all Contour"
+    IDS_CLIENT_NAME         "A Field Survey Company"
+    IDS_CLIENT_ADDRESS      "India"
+    ID_BUTTON_VALIGNMENT    "Create Vertical Alignment\nCreate Vertical Alignment"
+    ID_BUTTON_EDIT_VALIGNMENT 
+                            "Edit Vertical Alignment\nEdit Vertical Alignment"
+    IDS_DEV_NAME            "Atanu Banik"
+    IDS_DEV_ADDRESS         "E-Mail : atanubanik@gmail.com\r\tTel# +91 94332 61316\r\tIndia "
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

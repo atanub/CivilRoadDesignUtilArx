@@ -1,0 +1,13 @@
+//Volume.h
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#ifndef _VOLUME_H_
+#define _VOLUME_H_
+
+#include <dbents.h>
+#include <acgi.h>
+#include "Structures.h"
+
+void CalculateVolume();
+
+#endif //_VOLUME_H_
